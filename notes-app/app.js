@@ -4,7 +4,5 @@ const chalk = require('chalk');
 const msg = getNotes()
 console.log(msg)
 
-
-console.log(chalk.green.bold('Success!'));
-console.log(chalk.red('Danger'));
-console.log(chalk.blue('Primary'));
+const greenMsg = chalk.green.bold('Success!')
+console.log(greenMsg);
